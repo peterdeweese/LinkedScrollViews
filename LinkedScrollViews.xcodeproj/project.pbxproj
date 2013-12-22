@@ -12,14 +12,43 @@
 		9855D05D1865078A0095C634 /* LinkedScrollViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D05C1865078A0095C634 /* LinkedScrollViews.m */; };
 		9855D0641865078A0095C634 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0631865078A0095C634 /* XCTest.framework */; };
 		9855D0651865078A0095C634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0551865078A0095C634 /* Foundation.framework */; };
-		9855D0671865078A0095C634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0661865078A0095C634 /* UIKit.framework */; };
-		9855D06A1865078A0095C634 /* libLinkedScrollViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0521865078A0095C634 /* libLinkedScrollViews.a */; };
 		9855D0701865078A0095C634 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9855D06E1865078A0095C634 /* InfoPlist.strings */; };
 		9855D0721865078A0095C634 /* LinkedScrollViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D0711865078A0095C634 /* LinkedScrollViewsTests.m */; };
+		9855D07D18652A440095C634 /* UIScrollView+LinkedScrollViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D07C18652A440095C634 /* UIScrollView+LinkedScrollViews.m */; };
+		9855D07F186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D07E186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m */; };
+		9855D08118669E050095C634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D08018669E050095C634 /* UIKit.framework */; };
+		9855D0C4186783520095C634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0551865078A0095C634 /* Foundation.framework */; };
+		9855D0C5186783520095C634 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D08A1866A2300095C634 /* CoreGraphics.framework */; };
+		9855D0C6186783520095C634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D08018669E050095C634 /* UIKit.framework */; };
+		9855D0CC186783520095C634 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9855D0CA186783520095C634 /* InfoPlist.strings */; };
+		9855D0CE186783520095C634 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D0CD186783520095C634 /* main.m */; };
+		9855D0D2186783520095C634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D0D1186783520095C634 /* AppDelegate.m */; };
+		9855D0D5186783520095C634 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9855D0D3186783520095C634 /* Main_iPhone.storyboard */; };
+		9855D0D8186783520095C634 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9855D0D6186783520095C634 /* Main_iPad.storyboard */; };
+		9855D0DB186783520095C634 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D0DA186783520095C634 /* FirstViewController.m */; };
+		9855D0DE186783520095C634 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D0DD186783520095C634 /* SecondViewController.m */; };
+		9855D0E0186783520095C634 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9855D0DF186783520095C634 /* Images.xcassets */; };
+		9855D0FB1867851A0095C634 /* libLinkedScrollViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0521865078A0095C634 /* libLinkedScrollViews.a */; };
+		9855D1021867878B0095C634 /* libLinkedScrollViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0521865078A0095C634 /* libLinkedScrollViews.a */; };
+		9855D103186789090095C634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D08018669E050095C634 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9855D0681865078A0095C634 /* PBXContainerItemProxy */ = {
+		9855D0F9186785130095C634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9855D04A1865078A0095C634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9855D0511865078A0095C634;
+			remoteInfo = LinkedScrollViews;
+		};
+		9855D0FC186785280095C634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9855D04A1865078A0095C634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9855D0C2186783520095C634;
+			remoteInfo = SampleApp;
+		};
+		9855D0FF186787670095C634 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9855D04A1865078A0095C634 /* Project object */;
 			proxyType = 1;
@@ -53,6 +82,25 @@
 		9855D06D1865078A0095C634 /* LinkedScrollViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkedScrollViewsTests-Info.plist"; sourceTree = "<group>"; };
 		9855D06F1865078A0095C634 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9855D0711865078A0095C634 /* LinkedScrollViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedScrollViewsTests.m; sourceTree = "<group>"; };
+		9855D07B18652A440095C634 /* UIScrollView+LinkedScrollViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LinkedScrollViews.h"; sourceTree = "<group>"; };
+		9855D07C18652A440095C634 /* UIScrollView+LinkedScrollViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LinkedScrollViews.m"; sourceTree = "<group>"; };
+		9855D07E186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_LinkedScrollViewsTests.m; sourceTree = "<group>"; };
+		9855D08018669E050095C634 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9855D08A1866A2300095C634 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9855D0C3186783520095C634 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9855D0C9186783520095C634 /* SampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleApp-Info.plist"; sourceTree = "<group>"; };
+		9855D0CB186783520095C634 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9855D0CD186783520095C634 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9855D0CF186783520095C634 /* SampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		9855D0D0186783520095C634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9855D0D1186783520095C634 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9855D0D4186783520095C634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9855D0D7186783520095C634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9855D0D9186783520095C634 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9855D0DA186783520095C634 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9855D0DC186783520095C634 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9855D0DD186783520095C634 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9855D0DF186783520095C634 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9855D08118669E050095C634 /* UIKit.framework in Frameworks */,
 				9855D0561865078A0095C634 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,10 +117,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9855D06A1865078A0095C634 /* libLinkedScrollViews.a in Frameworks */,
+				9855D103186789090095C634 /* UIKit.framework in Frameworks */,
+				9855D1021867878B0095C634 /* libLinkedScrollViews.a in Frameworks */,
 				9855D0641865078A0095C634 /* XCTest.framework in Frameworks */,
-				9855D0671865078A0095C634 /* UIKit.framework in Frameworks */,
 				9855D0651865078A0095C634 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9855D0C0186783520095C634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9855D0FB1867851A0095C634 /* libLinkedScrollViews.a in Frameworks */,
+				9855D0C5186783520095C634 /* CoreGraphics.framework in Frameworks */,
+				9855D0C6186783520095C634 /* UIKit.framework in Frameworks */,
+				9855D0C4186783520095C634 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +143,7 @@
 			children = (
 				9855D0571865078A0095C634 /* LinkedScrollViews */,
 				9855D06B1865078A0095C634 /* LinkedScrollViewsTests */,
+				9855D0C7186783520095C634 /* SampleApp */,
 				9855D0541865078A0095C634 /* Frameworks */,
 				9855D0531865078A0095C634 /* Products */,
 			);
@@ -93,6 +154,7 @@
 			children = (
 				9855D0521865078A0095C634 /* libLinkedScrollViews.a */,
 				9855D0621865078A0095C634 /* LinkedScrollViewsTests.xctest */,
+				9855D0C3186783520095C634 /* SampleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +162,11 @@
 		9855D0541865078A0095C634 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9855D08018669E050095C634 /* UIKit.framework */,
 				9855D0551865078A0095C634 /* Foundation.framework */,
 				9855D0631865078A0095C634 /* XCTest.framework */,
 				9855D0661865078A0095C634 /* UIKit.framework */,
+				9855D08A1866A2300095C634 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,6 +177,8 @@
 				9855D05A1865078A0095C634 /* LinkedScrollViews.h */,
 				9855D05C1865078A0095C634 /* LinkedScrollViews.m */,
 				9855D0581865078A0095C634 /* Supporting Files */,
+				9855D07B18652A440095C634 /* UIScrollView+LinkedScrollViews.h */,
+				9855D07C18652A440095C634 /* UIScrollView+LinkedScrollViews.m */,
 			);
 			path = LinkedScrollViews;
 			sourceTree = "<group>";
@@ -129,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				9855D0711865078A0095C634 /* LinkedScrollViewsTests.m */,
+				9855D07E186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m */,
 				9855D06C1865078A0095C634 /* Supporting Files */,
 			);
 			path = LinkedScrollViewsTests;
@@ -139,6 +206,34 @@
 			children = (
 				9855D06D1865078A0095C634 /* LinkedScrollViewsTests-Info.plist */,
 				9855D06E1865078A0095C634 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9855D0C7186783520095C634 /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				9855D0D0186783520095C634 /* AppDelegate.h */,
+				9855D0D1186783520095C634 /* AppDelegate.m */,
+				9855D0D3186783520095C634 /* Main_iPhone.storyboard */,
+				9855D0D6186783520095C634 /* Main_iPad.storyboard */,
+				9855D0D9186783520095C634 /* FirstViewController.h */,
+				9855D0DA186783520095C634 /* FirstViewController.m */,
+				9855D0DC186783520095C634 /* SecondViewController.h */,
+				9855D0DD186783520095C634 /* SecondViewController.m */,
+				9855D0DF186783520095C634 /* Images.xcassets */,
+				9855D0C8186783520095C634 /* Supporting Files */,
+			);
+			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		9855D0C8186783520095C634 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9855D0C9186783520095C634 /* SampleApp-Info.plist */,
+				9855D0CA186783520095C634 /* InfoPlist.strings */,
+				9855D0CD186783520095C634 /* main.m */,
+				9855D0CF186783520095C634 /* SampleApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,12 +269,31 @@
 			buildRules = (
 			);
 			dependencies = (
-				9855D0691865078A0095C634 /* PBXTargetDependency */,
+				9855D100186787670095C634 /* PBXTargetDependency */,
+				9855D0FD186785280095C634 /* PBXTargetDependency */,
 			);
 			name = LinkedScrollViewsTests;
 			productName = LinkedScrollViewsTests;
 			productReference = 9855D0621865078A0095C634 /* LinkedScrollViewsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9855D0C2186783520095C634 /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9855D0F3186783520095C634 /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				9855D0BF186783520095C634 /* Sources */,
+				9855D0C0186783520095C634 /* Frameworks */,
+				9855D0C1186783520095C634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9855D0FA186785130095C634 /* PBXTargetDependency */,
+			);
+			name = SampleApp;
+			productName = SampleApp;
+			productReference = 9855D0C3186783520095C634 /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,6 +302,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					9855D0611865078A0095C634 = {
+						TestTargetID = 9855D0C2186783520095C634;
+					};
+				};
 			};
 			buildConfigurationList = 9855D04D1865078A0095C634 /* Build configuration list for PBXProject "LinkedScrollViews" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -195,6 +314,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 9855D0491865078A0095C634;
 			productRefGroup = 9855D0531865078A0095C634 /* Products */;
@@ -203,6 +323,7 @@
 			targets = (
 				9855D0511865078A0095C634 /* LinkedScrollViews */,
 				9855D0611865078A0095C634 /* LinkedScrollViewsTests */,
+				9855D0C2186783520095C634 /* SampleApp */,
 			);
 		};
 /* End PBXProject section */
@@ -216,6 +337,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9855D0C1186783520095C634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9855D0D8186783520095C634 /* Main_iPad.storyboard in Resources */,
+				9855D0E0186783520095C634 /* Images.xcassets in Resources */,
+				9855D0D5186783520095C634 /* Main_iPhone.storyboard in Resources */,
+				9855D0CC186783520095C634 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -223,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9855D07D18652A440095C634 /* UIScrollView+LinkedScrollViews.m in Sources */,
 				9855D05D1865078A0095C634 /* LinkedScrollViews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,17 +364,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9855D07F186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m in Sources */,
 				9855D0721865078A0095C634 /* LinkedScrollViewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9855D0BF186783520095C634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9855D0DE186783520095C634 /* SecondViewController.m in Sources */,
+				9855D0D2186783520095C634 /* AppDelegate.m in Sources */,
+				9855D0DB186783520095C634 /* FirstViewController.m in Sources */,
+				9855D0CE186783520095C634 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9855D0691865078A0095C634 /* PBXTargetDependency */ = {
+		9855D0FA186785130095C634 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9855D0511865078A0095C634 /* LinkedScrollViews */;
-			targetProxy = 9855D0681865078A0095C634 /* PBXContainerItemProxy */;
+			targetProxy = 9855D0F9186785130095C634 /* PBXContainerItemProxy */;
+		};
+		9855D0FD186785280095C634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9855D0C2186783520095C634 /* SampleApp */;
+			targetProxy = 9855D0FC186785280095C634 /* PBXContainerItemProxy */;
+		};
+		9855D100186787670095C634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9855D0511865078A0095C634 /* LinkedScrollViews */;
+			targetProxy = 9855D0FF186787670095C634 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -252,6 +407,30 @@
 				9855D06F1865078A0095C634 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9855D0CA186783520095C634 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9855D0CB186783520095C634 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9855D0D3186783520095C634 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9855D0D4186783520095C634 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9855D0D6186783520095C634 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9855D0D7186783520095C634 /* Base */,
+			);
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -333,7 +512,7 @@
 				DSTROOT = /tmp/LinkedScrollViews.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinkedScrollViews/LinkedScrollViews-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -345,7 +524,7 @@
 				DSTROOT = /tmp/LinkedScrollViews.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinkedScrollViews/LinkedScrollViews-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -355,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/SampleApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,7 +547,15 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "LinkedScrollViewsTests/LinkedScrollViewsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -376,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/SampleApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -384,8 +573,60 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinkedScrollViews/LinkedScrollViews-Prefix.pch";
 				INFOPLIST_FILE = "LinkedScrollViewsTests/LinkedScrollViewsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		9855D0F4186783520095C634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleApp/SampleApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SampleApp/SampleApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9855D0F5186783520095C634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleApp/SampleApp-Prefix.pch";
+				INFOPLIST_FILE = "SampleApp/SampleApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -414,6 +655,14 @@
 			buildConfigurations = (
 				9855D0791865078A0095C634 /* Debug */,
 				9855D07A1865078A0095C634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9855D0F3186783520095C634 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9855D0F4186783520095C634 /* Debug */,
+				9855D0F5186783520095C634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
