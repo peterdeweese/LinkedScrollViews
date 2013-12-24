@@ -3,14 +3,12 @@
 
 @implementation FirstViewController
 
--(id)init
+-(void)viewDidAppear:(BOOL)animated
 {
-    if(self = [super init])
-    {
-        UIScrollView *view = UIScrollView.new;
-        view.normalizedContentOffsetX = 10.;
-    }
-    return self;
+    [super viewDidAppear:animated];
+    linkedScrollView.contentSize = [linkedScrollView.subviews[0] frame].size;
+    for(UIScrollView *v in linkedScrollView.controlledScrollViews)
+        v.contentSize = [v.subviews[0] frame].size;
 }
 
 @end

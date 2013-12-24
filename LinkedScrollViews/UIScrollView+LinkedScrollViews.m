@@ -20,7 +20,15 @@
 
 -(void)setNormalizedContentOffsetX:(CGFloat)normalizedContentOffsetX
 {
-    self.contentOffset = CGPointMake(self.normalizedContentOffset.x * self.contentOffsetRangeWidth, self.contentOffset.y);
+    if(!self.bounces)
+        normalizedContentOffsetX = MAX(MIN(normalizedContentOffsetX, 1.), 0.);
+    if(isnan(normalizedContentOffsetX))
+        normalizedContentOffsetX = 0;
+    CGFloat result = normalizedContentOffsetX * self.contentOffsetRangeWidth;
+    
+    // Prevent recursion. Checks within a 100th of a point.
+    if(fabs(self.contentOffset.x - result) > 0.01)
+        self.contentOffset = CGPointMake(result, self.contentOffset.y);
 }
 
 -(CGFloat)normalizedContentOffsetY
@@ -30,7 +38,15 @@
 
 -(void)setNormalizedContentOffsetY:(CGFloat)normalizedContentOffsetY
 {
-    self.contentOffset = CGPointMake(self.contentOffset.x, self.normalizedContentOffset.y * self.contentOffsetRangeHeight);
+    if(!self.bounces)
+        normalizedContentOffsetY = MAX(MIN(normalizedContentOffsetY, 1.), 0.);
+    if(isnan(normalizedContentOffsetY))
+        normalizedContentOffsetY = 0;
+    CGFloat result = normalizedContentOffsetY * self.contentOffsetRangeHeight;
+
+    // Prevent recursion. Checks within a 100th of a point.
+    if(fabs(self.contentOffset.y - result) > 0.01)
+        self.contentOffset = CGPointMake(self.contentOffset.x, result);
 }
 
 -(CGFloat)contentOffsetRangeWidth

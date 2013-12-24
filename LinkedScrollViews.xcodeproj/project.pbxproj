@@ -31,6 +31,8 @@
 		9855D0FB1867851A0095C634 /* libLinkedScrollViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0521865078A0095C634 /* libLinkedScrollViews.a */; };
 		9855D1021867878B0095C634 /* libLinkedScrollViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0521865078A0095C634 /* libLinkedScrollViews.a */; };
 		9855D103186789090095C634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D08018669E050095C634 /* UIKit.framework */; };
+		9855D10C1867A41D0095C634 /* LinkedScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D10B1867A41D0095C634 /* LinkedScrollViewDelegate.m */; };
+		9855D10F1867BE7E0095C634 /* LinkedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D10E1867BE7E0095C634 /* LinkedScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,10 @@
 		9855D0DC186783520095C634 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		9855D0DD186783520095C634 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9855D0DF186783520095C634 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9855D10A1867A41D0095C634 /* LinkedScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedScrollViewDelegate.h; sourceTree = "<group>"; };
+		9855D10B1867A41D0095C634 /* LinkedScrollViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedScrollViewDelegate.m; sourceTree = "<group>"; };
+		9855D10D1867BE7E0095C634 /* LinkedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedScrollView.h; sourceTree = "<group>"; };
+		9855D10E1867BE7E0095C634 /* LinkedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,9 +182,13 @@
 			children = (
 				9855D05A1865078A0095C634 /* LinkedScrollViews.h */,
 				9855D05C1865078A0095C634 /* LinkedScrollViews.m */,
-				9855D0581865078A0095C634 /* Supporting Files */,
+				9855D10D1867BE7E0095C634 /* LinkedScrollView.h */,
+				9855D10E1867BE7E0095C634 /* LinkedScrollView.m */,
+				9855D10A1867A41D0095C634 /* LinkedScrollViewDelegate.h */,
+				9855D10B1867A41D0095C634 /* LinkedScrollViewDelegate.m */,
 				9855D07B18652A440095C634 /* UIScrollView+LinkedScrollViews.h */,
 				9855D07C18652A440095C634 /* UIScrollView+LinkedScrollViews.m */,
+				9855D0581865078A0095C634 /* Supporting Files */,
 			);
 			path = LinkedScrollViews;
 			sourceTree = "<group>";
@@ -356,6 +366,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9855D07D18652A440095C634 /* UIScrollView+LinkedScrollViews.m in Sources */,
+				9855D10C1867A41D0095C634 /* LinkedScrollViewDelegate.m in Sources */,
+				9855D10F1867BE7E0095C634 /* LinkedScrollView.m in Sources */,
 				9855D05D1865078A0095C634 /* LinkedScrollViews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,6 +661,7 @@
 				9855D0771865078A0095C634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9855D0781865078A0095C634 /* Build configuration list for PBXNativeTarget "LinkedScrollViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +670,7 @@
 				9855D07A1865078A0095C634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9855D0F3186783520095C634 /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +679,7 @@
 				9855D0F5186783520095C634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
