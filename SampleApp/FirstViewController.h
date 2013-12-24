@@ -1,9 +1,9 @@
 #import <UIKit/UIKit.h>
-#import "LinkedScrollView.h"
+#import "ScrollViewLinker.h"
 
 @interface FirstViewController : UIViewController
 {
-    IBOutlet LinkedScrollView *linkedScrollView;
+    IBOutlet ScrollViewLinker *scrollViewLinker;
 }
 
 @end

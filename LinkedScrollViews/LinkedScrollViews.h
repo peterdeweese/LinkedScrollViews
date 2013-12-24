@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
-#import "LinkedScrollView.h"
+#import "ScrollViewLinker.h"
 #import "LinkedScrollViewDelegate.h"
 #import "UIScrollView+LinkedScrollViews.h"
 
