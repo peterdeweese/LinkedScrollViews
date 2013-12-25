@@ -33,6 +33,8 @@
 		9855D103186789090095C634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D08018669E050095C634 /* UIKit.framework */; };
 		9855D10C1867A41D0095C634 /* LinkedScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D10B1867A41D0095C634 /* LinkedScrollViewDelegate.m */; };
 		9855D1121869EC7B0095C634 /* ScrollViewLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D1111869EC7B0095C634 /* ScrollViewLinker.m */; };
+		9855D115186A81580095C634 /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9855D113186A81580095C634 /* moon.jpg */; };
+		9855D116186A81580095C634 /* mountains.png in Resources */ = {isa = PBXBuildFile; fileRef = 9855D114186A81580095C634 /* mountains.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,8 @@
 		9855D10B1867A41D0095C634 /* LinkedScrollViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedScrollViewDelegate.m; sourceTree = "<group>"; };
 		9855D1101869EC7B0095C634 /* ScrollViewLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewLinker.h; sourceTree = "<group>"; };
 		9855D1111869EC7B0095C634 /* ScrollViewLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLinker.m; sourceTree = "<group>"; };
+		9855D113186A81580095C634 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moon.jpg; path = images/moon.jpg; sourceTree = SOURCE_ROOT; };
+		9855D114186A81580095C634 /* mountains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mountains.png; path = images/mountains.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +200,8 @@
 		9855D0581865078A0095C634 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9855D113186A81580095C634 /* moon.jpg */,
+				9855D114186A81580095C634 /* mountains.png */,
 				9855D0591865078A0095C634 /* LinkedScrollViews-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -352,6 +358,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9855D0D8186783520095C634 /* Main_iPad.storyboard in Resources */,
+				9855D115186A81580095C634 /* moon.jpg in Resources */,
+				9855D116186A81580095C634 /* mountains.png in Resources */,
 				9855D0E0186783520095C634 /* Images.xcassets in Resources */,
 				9855D0D5186783520095C634 /* Main_iPhone.storyboard in Resources */,
 				9855D0CC186783520095C634 /* InfoPlist.strings in Resources */,
