@@ -35,6 +35,7 @@
 		9855D1121869EC7B0095C634 /* ScrollViewLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D1111869EC7B0095C634 /* ScrollViewLinker.m */; };
 		9855D115186A81580095C634 /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9855D113186A81580095C634 /* moon.jpg */; };
 		9855D116186A81580095C634 /* mountains.png in Resources */ = {isa = PBXBuildFile; fileRef = 9855D114186A81580095C634 /* mountains.png */; };
+		98DE135A186D0AD2004822CE /* trees.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DE1359186D0AD2004822CE /* trees.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		9855D1111869EC7B0095C634 /* ScrollViewLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLinker.m; sourceTree = "<group>"; };
 		9855D113186A81580095C634 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moon.jpg; path = images/moon.jpg; sourceTree = SOURCE_ROOT; };
 		9855D114186A81580095C634 /* mountains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mountains.png; path = images/mountains.png; sourceTree = SOURCE_ROOT; };
+		98DE1359186D0AD2004822CE /* trees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trees.png; path = images/trees.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			children = (
 				9855D113186A81580095C634 /* moon.jpg */,
 				9855D114186A81580095C634 /* mountains.png */,
+				98DE1359186D0AD2004822CE /* trees.png */,
 				9855D0591865078A0095C634 /* LinkedScrollViews-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -362,6 +365,7 @@
 				9855D116186A81580095C634 /* mountains.png in Resources */,
 				9855D0E0186783520095C634 /* Images.xcassets in Resources */,
 				9855D0D5186783520095C634 /* Main_iPhone.storyboard in Resources */,
+				98DE135A186D0AD2004822CE /* trees.png in Resources */,
 				9855D0CC186783520095C634 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
