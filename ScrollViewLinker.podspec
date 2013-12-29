@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ScrollViewLinker"
-  s.version      = "0.0.1"
+  s.version      = "0.1"
   s.summary      = "Links your scroll views for parallax."
 
   s.description  = <<-DESC
@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/peterdeweese/ScrollViewLinker"
-  s.license      = 'MIT (example)'
+  s.license      = 'MIT'
   s.author       = { "Peter DeWeese" => "peter@dewee.se" }
   s.platform     = :ios, '6.0'
-  s.source       = { :git => "git@github.com:peterdeweese/ScrollViewLinker.git", :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:peterdeweese/ScrollViewLinker.git", :tag => "0.1" }
   s.source_files  = 'src', 'src/*.{h,m}'
   s.public_header_files = 'src/*.h'
 
