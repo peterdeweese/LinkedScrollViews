@@ -104,6 +104,9 @@
 		9855D1111869EC7B0095C634 /* ScrollViewLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLinker.m; sourceTree = "<group>"; };
 		9855D113186A81580095C634 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moon.jpg; path = images/moon.jpg; sourceTree = SOURCE_ROOT; };
 		9855D114186A81580095C634 /* mountains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mountains.png; path = images/mountains.png; sourceTree = SOURCE_ROOT; };
+		9867BFB8186FBC91006B2F80 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		9867BFB9186FBC99006B2F80 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9867BFBA186FBCA4006B2F80 /* ScrollViewLinker.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ScrollViewLinker.podspec; sourceTree = "<group>"; };
 		98DE1359186D0AD2004822CE /* trees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trees.png; path = images/trees.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -150,6 +153,9 @@
 				9855D0C7186783520095C634 /* SampleApp */,
 				9855D0541865078A0095C634 /* Frameworks */,
 				9855D0531865078A0095C634 /* Products */,
+				9867BFB8186FBC91006B2F80 /* README.md */,
+				9867BFB9186FBC99006B2F80 /* LICENSE */,
+				9867BFBA186FBCA4006B2F80 /* ScrollViewLinker.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,7 +190,6 @@
 				9855D07C18652A440095C634 /* UIScrollView+ScrollViewLinker.m */,
 				9855D0581865078A0095C634 /* Supporting Files */,
 			);
-			name = ScrollViewLinker;
 			path = ScrollViewLinker;
 			sourceTree = "<group>";
 		};
@@ -206,7 +211,6 @@
 				9855D07E186695F90095C634 /* UIScrollView_ScrollViewLinkerTests.m */,
 				9855D06C1865078A0095C634 /* Supporting Files */,
 			);
-			name = ScrollViewLinkerTests;
 			path = ScrollViewLinkerTests;
 			sourceTree = "<group>";
 		};
