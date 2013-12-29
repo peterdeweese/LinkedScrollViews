@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Peter DeWeese" => "peter@dewee.se" }
   s.platform     = :ios, '6.0'
-  s.source       = { :git => "git@github.com:peterdeweese/ScrollViewLinker.git", :tag => "0.1" }
+  s.source       = { :git => "https://github.com/peterdeweese/ScrollViewLinker.git", :tag => "0.1" }
   s.source_files  = 'src', 'src/*.{h,m}'
   s.public_header_files = 'src/*.h'
 
