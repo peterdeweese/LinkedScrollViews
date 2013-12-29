@@ -1,13 +1,13 @@
 #import <XCTest/XCTest.h>
-#import "UIScrollView+LinkedScrollViews.h"
+#import "UIScrollView+ScrollViewLinker.h"
 
-@interface UIScrollView_LinkedScrollViewsTests : XCTestCase
+@interface UIScrollView_ScrollViewLinkerTests: XCTestCase
 {
     UIScrollView *scrollView;
 }
 @end
 
-@implementation UIScrollView_LinkedScrollViewsTests
+@implementation UIScrollView_ScrollViewLinkerTests
 
 - (void)setUp
 {

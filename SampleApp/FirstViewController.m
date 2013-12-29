@@ -1,5 +1,5 @@
 #import "FirstViewController.h"
-#import "UIScrollView+LinkedScrollViews.h"
+#import "UIScrollView+ScrollViewLinker.h"
 
 @implementation FirstViewController
 

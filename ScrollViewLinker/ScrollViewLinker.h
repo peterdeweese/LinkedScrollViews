@@ -1,4 +1,5 @@
 #import <UIKit/UIKit.h>
+#import "UIScrollView+ScrollViewLinker.h"
 
 @interface ScrollViewLinker : NSObject
 

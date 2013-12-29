@@ -1,5 +1,5 @@
 #import "ScrollViewLinker.h"
-#import "UIScrollView+LinkedScrollViews.h"
+#import "UIScrollView+ScrollViewLinker.h"
 
 @implementation ScrollViewLinker
 {

@@ -1,6 +1,6 @@
-#import "UIScrollView+LinkedScrollViews.h"
+#import "UIScrollView+ScrollViewLinker.h"
 
-@implementation UIScrollView(LinkedScrollViews)
+@implementation UIScrollView(ScrollViewLinker)
 
 -(CGPoint)normalizedContentOffset
 {

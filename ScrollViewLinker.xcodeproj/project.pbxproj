@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9855D0561865078A0095C634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0551865078A0095C634 /* Foundation.framework */; };
-		9855D05B1865078A0095C634 /* LinkedScrollViews.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9855D05A1865078A0095C634 /* LinkedScrollViews.h */; };
-		9855D05D1865078A0095C634 /* LinkedScrollViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D05C1865078A0095C634 /* LinkedScrollViews.m */; };
 		9855D0641865078A0095C634 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0631865078A0095C634 /* XCTest.framework */; };
 		9855D0651865078A0095C634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0551865078A0095C634 /* Foundation.framework */; };
 		9855D0701865078A0095C634 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9855D06E1865078A0095C634 /* InfoPlist.strings */; };
-		9855D0721865078A0095C634 /* LinkedScrollViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D0711865078A0095C634 /* LinkedScrollViewsTests.m */; };
-		9855D07D18652A440095C634 /* UIScrollView+LinkedScrollViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D07C18652A440095C634 /* UIScrollView+LinkedScrollViews.m */; };
-		9855D07F186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D07E186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m */; };
+		9855D0721865078A0095C634 /* ScrollViewLinkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D0711865078A0095C634 /* ScrollViewLinkerTests.m */; };
+		9855D07D18652A440095C634 /* UIScrollView+ScrollViewLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D07C18652A440095C634 /* UIScrollView+ScrollViewLinker.m */; };
+		9855D07F186695F90095C634 /* UIScrollView_ScrollViewLinkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D07E186695F90095C634 /* UIScrollView_ScrollViewLinkerTests.m */; };
 		9855D08118669E050095C634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D08018669E050095C634 /* UIKit.framework */; };
 		9855D0C4186783520095C634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0551865078A0095C634 /* Foundation.framework */; };
 		9855D0C5186783520095C634 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D08A1866A2300095C634 /* CoreGraphics.framework */; };
@@ -28,10 +26,9 @@
 		9855D0DB186783520095C634 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D0DA186783520095C634 /* FirstViewController.m */; };
 		9855D0DE186783520095C634 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D0DD186783520095C634 /* SecondViewController.m */; };
 		9855D0E0186783520095C634 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9855D0DF186783520095C634 /* Images.xcassets */; };
-		9855D0FB1867851A0095C634 /* libLinkedScrollViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0521865078A0095C634 /* libLinkedScrollViews.a */; };
-		9855D1021867878B0095C634 /* libLinkedScrollViews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0521865078A0095C634 /* libLinkedScrollViews.a */; };
+		9855D0FB1867851A0095C634 /* libScrollViewLinker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0521865078A0095C634 /* libScrollViewLinker.a */; };
+		9855D1021867878B0095C634 /* libScrollViewLinker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D0521865078A0095C634 /* libScrollViewLinker.a */; };
 		9855D103186789090095C634 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855D08018669E050095C634 /* UIKit.framework */; };
-		9855D10C1867A41D0095C634 /* LinkedScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D10B1867A41D0095C634 /* LinkedScrollViewDelegate.m */; };
 		9855D1121869EC7B0095C634 /* ScrollViewLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9855D1111869EC7B0095C634 /* ScrollViewLinker.m */; };
 		9855D115186A81580095C634 /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9855D113186A81580095C634 /* moon.jpg */; };
 		9855D116186A81580095C634 /* mountains.png in Resources */ = {isa = PBXBuildFile; fileRef = 9855D114186A81580095C634 /* mountains.png */; };
@@ -44,7 +41,7 @@
 			containerPortal = 9855D04A1865078A0095C634 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9855D0511865078A0095C634;
-			remoteInfo = LinkedScrollViews;
+			remoteInfo = ScrollViewLinker;
 		};
 		9855D0FC186785280095C634 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -58,7 +55,7 @@
 			containerPortal = 9855D04A1865078A0095C634 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9855D0511865078A0095C634;
-			remoteInfo = LinkedScrollViews;
+			remoteInfo = ScrollViewLinker;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -69,27 +66,24 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9855D05B1865078A0095C634 /* LinkedScrollViews.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9855D0521865078A0095C634 /* libLinkedScrollViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLinkedScrollViews.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9855D0521865078A0095C634 /* libScrollViewLinker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScrollViewLinker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9855D0551865078A0095C634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9855D0591865078A0095C634 /* LinkedScrollViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkedScrollViews-Prefix.pch"; sourceTree = "<group>"; };
-		9855D05A1865078A0095C634 /* LinkedScrollViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedScrollViews.h; sourceTree = "<group>"; };
-		9855D05C1865078A0095C634 /* LinkedScrollViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedScrollViews.m; sourceTree = "<group>"; };
-		9855D0621865078A0095C634 /* LinkedScrollViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedScrollViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9855D0591865078A0095C634 /* ScrollViewLinker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollViewLinker-Prefix.pch"; sourceTree = "<group>"; };
+		9855D0621865078A0095C634 /* ScrollViewLinkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewLinkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9855D0631865078A0095C634 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9855D0661865078A0095C634 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		9855D06D1865078A0095C634 /* LinkedScrollViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinkedScrollViewsTests-Info.plist"; sourceTree = "<group>"; };
+		9855D06D1865078A0095C634 /* ScrollViewLinkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewLinkerTests-Info.plist"; sourceTree = "<group>"; };
 		9855D06F1865078A0095C634 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9855D0711865078A0095C634 /* LinkedScrollViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedScrollViewsTests.m; sourceTree = "<group>"; };
-		9855D07B18652A440095C634 /* UIScrollView+LinkedScrollViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LinkedScrollViews.h"; sourceTree = "<group>"; };
-		9855D07C18652A440095C634 /* UIScrollView+LinkedScrollViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LinkedScrollViews.m"; sourceTree = "<group>"; };
-		9855D07E186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_LinkedScrollViewsTests.m; sourceTree = "<group>"; };
+		9855D0711865078A0095C634 /* ScrollViewLinkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLinkerTests.m; sourceTree = "<group>"; };
+		9855D07B18652A440095C634 /* UIScrollView+ScrollViewLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ScrollViewLinker.h"; sourceTree = "<group>"; };
+		9855D07C18652A440095C634 /* UIScrollView+ScrollViewLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ScrollViewLinker.m"; sourceTree = "<group>"; };
+		9855D07E186695F90095C634 /* UIScrollView_ScrollViewLinkerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_ScrollViewLinkerTests.m; sourceTree = "<group>"; };
 		9855D08018669E050095C634 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9855D08A1866A2300095C634 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9855D0C3186783520095C634 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,8 +100,6 @@
 		9855D0DC186783520095C634 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		9855D0DD186783520095C634 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9855D0DF186783520095C634 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9855D10A1867A41D0095C634 /* LinkedScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedScrollViewDelegate.h; sourceTree = "<group>"; };
-		9855D10B1867A41D0095C634 /* LinkedScrollViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedScrollViewDelegate.m; sourceTree = "<group>"; };
 		9855D1101869EC7B0095C634 /* ScrollViewLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewLinker.h; sourceTree = "<group>"; };
 		9855D1111869EC7B0095C634 /* ScrollViewLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewLinker.m; sourceTree = "<group>"; };
 		9855D113186A81580095C634 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moon.jpg; path = images/moon.jpg; sourceTree = SOURCE_ROOT; };
@@ -130,7 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9855D103186789090095C634 /* UIKit.framework in Frameworks */,
-				9855D1021867878B0095C634 /* libLinkedScrollViews.a in Frameworks */,
+				9855D1021867878B0095C634 /* libScrollViewLinker.a in Frameworks */,
 				9855D0641865078A0095C634 /* XCTest.framework in Frameworks */,
 				9855D0651865078A0095C634 /* Foundation.framework in Frameworks */,
 			);
@@ -140,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9855D0FB1867851A0095C634 /* libLinkedScrollViews.a in Frameworks */,
+				9855D0FB1867851A0095C634 /* libScrollViewLinker.a in Frameworks */,
 				9855D0C5186783520095C634 /* CoreGraphics.framework in Frameworks */,
 				9855D0C6186783520095C634 /* UIKit.framework in Frameworks */,
 				9855D0C4186783520095C634 /* Foundation.framework in Frameworks */,
@@ -153,8 +145,8 @@
 		9855D0491865078A0095C634 = {
 			isa = PBXGroup;
 			children = (
-				9855D0571865078A0095C634 /* LinkedScrollViews */,
-				9855D06B1865078A0095C634 /* LinkedScrollViewsTests */,
+				9855D0571865078A0095C634 /* ScrollViewLinker */,
+				9855D06B1865078A0095C634 /* ScrollViewLinkerTests */,
 				9855D0C7186783520095C634 /* SampleApp */,
 				9855D0541865078A0095C634 /* Frameworks */,
 				9855D0531865078A0095C634 /* Products */,
@@ -164,8 +156,8 @@
 		9855D0531865078A0095C634 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9855D0521865078A0095C634 /* libLinkedScrollViews.a */,
-				9855D0621865078A0095C634 /* LinkedScrollViewsTests.xctest */,
+				9855D0521865078A0095C634 /* libScrollViewLinker.a */,
+				9855D0621865078A0095C634 /* ScrollViewLinkerTests.xctest */,
 				9855D0C3186783520095C634 /* SampleApp.app */,
 			);
 			name = Products;
@@ -183,20 +175,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9855D0571865078A0095C634 /* LinkedScrollViews */ = {
+		9855D0571865078A0095C634 /* ScrollViewLinker */ = {
 			isa = PBXGroup;
 			children = (
 				9855D1101869EC7B0095C634 /* ScrollViewLinker.h */,
 				9855D1111869EC7B0095C634 /* ScrollViewLinker.m */,
-				9855D05A1865078A0095C634 /* LinkedScrollViews.h */,
-				9855D05C1865078A0095C634 /* LinkedScrollViews.m */,
-				9855D10A1867A41D0095C634 /* LinkedScrollViewDelegate.h */,
-				9855D10B1867A41D0095C634 /* LinkedScrollViewDelegate.m */,
-				9855D07B18652A440095C634 /* UIScrollView+LinkedScrollViews.h */,
-				9855D07C18652A440095C634 /* UIScrollView+LinkedScrollViews.m */,
+				9855D07B18652A440095C634 /* UIScrollView+ScrollViewLinker.h */,
+				9855D07C18652A440095C634 /* UIScrollView+ScrollViewLinker.m */,
 				9855D0581865078A0095C634 /* Supporting Files */,
 			);
-			path = LinkedScrollViews;
+			name = ScrollViewLinker;
+			path = ScrollViewLinker;
 			sourceTree = "<group>";
 		};
 		9855D0581865078A0095C634 /* Supporting Files */ = {
@@ -205,25 +194,26 @@
 				9855D113186A81580095C634 /* moon.jpg */,
 				9855D114186A81580095C634 /* mountains.png */,
 				98DE1359186D0AD2004822CE /* trees.png */,
-				9855D0591865078A0095C634 /* LinkedScrollViews-Prefix.pch */,
+				9855D0591865078A0095C634 /* ScrollViewLinker-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9855D06B1865078A0095C634 /* LinkedScrollViewsTests */ = {
+		9855D06B1865078A0095C634 /* ScrollViewLinkerTests */ = {
 			isa = PBXGroup;
 			children = (
-				9855D0711865078A0095C634 /* LinkedScrollViewsTests.m */,
-				9855D07E186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m */,
+				9855D0711865078A0095C634 /* ScrollViewLinkerTests.m */,
+				9855D07E186695F90095C634 /* UIScrollView_ScrollViewLinkerTests.m */,
 				9855D06C1865078A0095C634 /* Supporting Files */,
 			);
-			path = LinkedScrollViewsTests;
+			name = ScrollViewLinkerTests;
+			path = ScrollViewLinkerTests;
 			sourceTree = "<group>";
 		};
 		9855D06C1865078A0095C634 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9855D06D1865078A0095C634 /* LinkedScrollViewsTests-Info.plist */,
+				9855D06D1865078A0095C634 /* ScrollViewLinkerTests-Info.plist */,
 				9855D06E1865078A0095C634 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -260,9 +250,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9855D0511865078A0095C634 /* LinkedScrollViews */ = {
+		9855D0511865078A0095C634 /* ScrollViewLinker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9855D0751865078A0095C634 /* Build configuration list for PBXNativeTarget "LinkedScrollViews" */;
+			buildConfigurationList = 9855D0751865078A0095C634 /* Build configuration list for PBXNativeTarget "ScrollViewLinker" */;
 			buildPhases = (
 				9855D04E1865078A0095C634 /* Sources */,
 				9855D04F1865078A0095C634 /* Frameworks */,
@@ -272,14 +262,14 @@
 			);
 			dependencies = (
 			);
-			name = LinkedScrollViews;
-			productName = LinkedScrollViews;
-			productReference = 9855D0521865078A0095C634 /* libLinkedScrollViews.a */;
+			name = ScrollViewLinker;
+			productName = ScrollViewLinker;
+			productReference = 9855D0521865078A0095C634 /* libScrollViewLinker.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9855D0611865078A0095C634 /* LinkedScrollViewsTests */ = {
+		9855D0611865078A0095C634 /* ScrollViewLinkerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9855D0781865078A0095C634 /* Build configuration list for PBXNativeTarget "LinkedScrollViewsTests" */;
+			buildConfigurationList = 9855D0781865078A0095C634 /* Build configuration list for PBXNativeTarget "ScrollViewLinkerTests" */;
 			buildPhases = (
 				9855D05E1865078A0095C634 /* Sources */,
 				9855D05F1865078A0095C634 /* Frameworks */,
@@ -291,9 +281,9 @@
 				9855D100186787670095C634 /* PBXTargetDependency */,
 				9855D0FD186785280095C634 /* PBXTargetDependency */,
 			);
-			name = LinkedScrollViewsTests;
-			productName = LinkedScrollViewsTests;
-			productReference = 9855D0621865078A0095C634 /* LinkedScrollViewsTests.xctest */;
+			name = ScrollViewLinkerTests;
+			productName = ScrollViewLinker;
+			productReference = 9855D0621865078A0095C634 /* ScrollViewLinkerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		9855D0C2186783520095C634 /* SampleApp */ = {
@@ -327,7 +317,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9855D04D1865078A0095C634 /* Build configuration list for PBXProject "LinkedScrollViews" */;
+			buildConfigurationList = 9855D04D1865078A0095C634 /* Build configuration list for PBXProject "ScrollViewLinker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -340,8 +330,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9855D0511865078A0095C634 /* LinkedScrollViews */,
-				9855D0611865078A0095C634 /* LinkedScrollViewsTests */,
+				9855D0511865078A0095C634 /* ScrollViewLinker */,
+				9855D0611865078A0095C634 /* ScrollViewLinkerTests */,
 				9855D0C2186783520095C634 /* SampleApp */,
 			);
 		};
@@ -377,10 +367,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9855D07D18652A440095C634 /* UIScrollView+LinkedScrollViews.m in Sources */,
-				9855D10C1867A41D0095C634 /* LinkedScrollViewDelegate.m in Sources */,
+				9855D07D18652A440095C634 /* UIScrollView+ScrollViewLinker.m in Sources */,
 				9855D1121869EC7B0095C634 /* ScrollViewLinker.m in Sources */,
-				9855D05D1865078A0095C634 /* LinkedScrollViews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,8 +376,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9855D07F186695F90095C634 /* UIScrollView_LinkedScrollViewsTests.m in Sources */,
-				9855D0721865078A0095C634 /* LinkedScrollViewsTests.m in Sources */,
+				9855D07F186695F90095C634 /* UIScrollView_ScrollViewLinkerTests.m in Sources */,
+				9855D0721865078A0095C634 /* ScrollViewLinkerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +397,7 @@
 /* Begin PBXTargetDependency section */
 		9855D0FA186785130095C634 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9855D0511865078A0095C634 /* LinkedScrollViews */;
+			target = 9855D0511865078A0095C634 /* ScrollViewLinker */;
 			targetProxy = 9855D0F9186785130095C634 /* PBXContainerItemProxy */;
 		};
 		9855D0FD186785280095C634 /* PBXTargetDependency */ = {
@@ -419,7 +407,7 @@
 		};
 		9855D100186787670095C634 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9855D0511865078A0095C634 /* LinkedScrollViews */;
+			target = 9855D0511865078A0095C634 /* ScrollViewLinker */;
 			targetProxy = 9855D0FF186787670095C634 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -533,9 +521,9 @@
 		9855D0761865078A0095C634 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/LinkedScrollViews.dst;
+				DSTROOT = /tmp/ScrollViewLinker.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LinkedScrollViews/LinkedScrollViews-Prefix.pch";
+				GCC_PREFIX_HEADER = "ScrollViewLinker/ScrollViewLinker-Prefix.pch";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -545,9 +533,9 @@
 		9855D0771865078A0095C634 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/LinkedScrollViews.dst;
+				DSTROOT = /tmp/ScrollViewLinker.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LinkedScrollViews/LinkedScrollViews-Prefix.pch";
+				GCC_PREFIX_HEADER = "ScrollViewLinker/ScrollViewLinker-Prefix.pch";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -565,12 +553,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LinkedScrollViews/LinkedScrollViews-Prefix.pch";
+				GCC_PREFIX_HEADER = "ScrollViewLinker/ScrollViewLinker-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "LinkedScrollViewsTests/LinkedScrollViewsTests-Info.plist";
+				INFOPLIST_FILE = "ScrollViewLinkerTests/ScrollViewLinkerTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -595,8 +583,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LinkedScrollViews/LinkedScrollViews-Prefix.pch";
-				INFOPLIST_FILE = "LinkedScrollViewsTests/LinkedScrollViewsTests-Info.plist";
+				GCC_PREFIX_HEADER = "ScrollViewLinker/ScrollViewLinker-Prefix.pch";
+				INFOPLIST_FILE = "ScrollViewLinkerTests/ScrollViewLinkerTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -657,7 +645,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9855D04D1865078A0095C634 /* Build configuration list for PBXProject "LinkedScrollViews" */ = {
+		9855D04D1865078A0095C634 /* Build configuration list for PBXProject "ScrollViewLinker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9855D0731865078A0095C634 /* Debug */,
@@ -666,7 +654,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9855D0751865078A0095C634 /* Build configuration list for PBXNativeTarget "LinkedScrollViews" */ = {
+		9855D0751865078A0095C634 /* Build configuration list for PBXNativeTarget "ScrollViewLinker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9855D0761865078A0095C634 /* Debug */,
@@ -675,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9855D0781865078A0095C634 /* Build configuration list for PBXNativeTarget "LinkedScrollViewsTests" */ = {
+		9855D0781865078A0095C634 /* Build configuration list for PBXNativeTarget "ScrollViewLinkerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9855D0791865078A0095C634 /* Debug */,
