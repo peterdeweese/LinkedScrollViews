@@ -148,9 +148,9 @@
 		9855D0491865078A0095C634 = {
 			isa = PBXGroup;
 			children = (
-				9855D0571865078A0095C634 /* ScrollViewLinker */,
-				9855D06B1865078A0095C634 /* ScrollViewLinkerTests */,
-				9855D0C7186783520095C634 /* SampleApp */,
+				9855D0571865078A0095C634 /* src */,
+				9855D06B1865078A0095C634 /* test */,
+				9855D0C7186783520095C634 /* sample */,
 				9855D0541865078A0095C634 /* Frameworks */,
 				9855D0531865078A0095C634 /* Products */,
 				9867BFB8186FBC91006B2F80 /* README.md */,
@@ -181,37 +181,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9855D0571865078A0095C634 /* ScrollViewLinker */ = {
+		9855D0571865078A0095C634 /* src */ = {
 			isa = PBXGroup;
 			children = (
 				9855D1101869EC7B0095C634 /* ScrollViewLinker.h */,
 				9855D1111869EC7B0095C634 /* ScrollViewLinker.m */,
 				9855D07B18652A440095C634 /* UIScrollView+ScrollViewLinker.h */,
 				9855D07C18652A440095C634 /* UIScrollView+ScrollViewLinker.m */,
-				9855D0581865078A0095C634 /* Supporting Files */,
-			);
-			path = ScrollViewLinker;
-			sourceTree = "<group>";
-		};
-		9855D0581865078A0095C634 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9855D113186A81580095C634 /* moon.jpg */,
-				9855D114186A81580095C634 /* mountains.png */,
-				98DE1359186D0AD2004822CE /* trees.png */,
 				9855D0591865078A0095C634 /* ScrollViewLinker-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = src;
 			sourceTree = "<group>";
 		};
-		9855D06B1865078A0095C634 /* ScrollViewLinkerTests */ = {
+		9855D06B1865078A0095C634 /* test */ = {
 			isa = PBXGroup;
 			children = (
 				9855D0711865078A0095C634 /* ScrollViewLinkerTests.m */,
 				9855D07E186695F90095C634 /* UIScrollView_ScrollViewLinkerTests.m */,
 				9855D06C1865078A0095C634 /* Supporting Files */,
 			);
-			path = ScrollViewLinkerTests;
+			path = test;
 			sourceTree = "<group>";
 		};
 		9855D06C1865078A0095C634 /* Supporting Files */ = {
@@ -223,7 +212,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9855D0C7186783520095C634 /* SampleApp */ = {
+		9855D0C7186783520095C634 /* sample */ = {
 			isa = PBXGroup;
 			children = (
 				9855D0D0186783520095C634 /* AppDelegate.h */,
@@ -237,12 +226,15 @@
 				9855D0DF186783520095C634 /* Images.xcassets */,
 				9855D0C8186783520095C634 /* Supporting Files */,
 			);
-			path = SampleApp;
+			path = sample;
 			sourceTree = "<group>";
 		};
 		9855D0C8186783520095C634 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9855D113186A81580095C634 /* moon.jpg */,
+				9855D114186A81580095C634 /* mountains.png */,
+				98DE1359186D0AD2004822CE /* trees.png */,
 				9855D0C9186783520095C634 /* SampleApp-Info.plist */,
 				9855D0CA186783520095C634 /* InfoPlist.strings */,
 				9855D0CD186783520095C634 /* main.m */,
@@ -527,7 +519,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/ScrollViewLinker.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScrollViewLinker/ScrollViewLinker-Prefix.pch";
+				GCC_PREFIX_HEADER = "src/ScrollViewLinker-Prefix.pch";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -539,7 +531,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/ScrollViewLinker.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScrollViewLinker/ScrollViewLinker-Prefix.pch";
+				GCC_PREFIX_HEADER = "src/ScrollViewLinker-Prefix.pch";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -557,12 +549,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScrollViewLinker/ScrollViewLinker-Prefix.pch";
+				GCC_PREFIX_HEADER = "src/ScrollViewLinker-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ScrollViewLinkerTests/ScrollViewLinkerTests-Info.plist";
+				INFOPLIST_FILE = "test/ScrollViewLinkerTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -587,8 +579,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScrollViewLinker/ScrollViewLinker-Prefix.pch";
-				INFOPLIST_FILE = "ScrollViewLinkerTests/ScrollViewLinkerTests-Info.plist";
+				GCC_PREFIX_HEADER = "src/ScrollViewLinker-Prefix.pch";
+				INFOPLIST_FILE = "test/ScrollViewLinkerTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -610,12 +602,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SampleApp/SampleApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "sample/SampleApp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SampleApp/SampleApp-Info.plist";
+				INFOPLIST_FILE = "sample/SampleApp-Info.plist";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -634,8 +626,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SampleApp/SampleApp-Prefix.pch";
-				INFOPLIST_FILE = "SampleApp/SampleApp-Info.plist";
+				GCC_PREFIX_HEADER = "sample/SampleApp-Prefix.pch";
+				INFOPLIST_FILE = "sample/SampleApp-Info.plist";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
