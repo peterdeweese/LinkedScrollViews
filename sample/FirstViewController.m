@@ -7,7 +7,8 @@
 {
     [super viewDidAppear:animated];
     for(UIScrollView *v in scrollViewLinker.scrollViews)
-        v.contentSize = [v.subviews[0] frame].size;
+        if(v.subviews.count)
+            v.contentSize = [v.subviews[0] frame].size;
 }
 
 @end
