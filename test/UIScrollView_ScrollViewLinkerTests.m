@@ -18,32 +18,37 @@
 
 - (void)testNormalizedContentOffset
 {
-    XCTAssertEqual(scrollView.normalizedContentOffset, CGPointMake(0, 0));
+    XCTAssertTrue(CGPointEqualToPoint(scrollView.normalizedContentOffset, CGPointMake(0, 0)));
     scrollView.contentOffset = CGPointMake(100, 100);
-    XCTAssertEqual(scrollView.normalizedContentOffset, CGPointMake(0.5, 0.5));
+    XCTAssertTrue(CGPointEqualToPoint(scrollView.normalizedContentOffset, CGPointMake(0.5, 0.5)));
     
     scrollView.bounces = YES;
     scrollView.normalizedContentOffset = CGPointMake(-0.1, -0.1);
-    XCTAssertEqual(scrollView.normalizedContentOffset, CGPointMake(-0.1, -0.1), @"view should not allow bounce.");
+    XCTAssertTrue(CGPointEqualToPoint(scrollView.normalizedContentOffset, CGPointMake(-0.1, -0.1)), @"view should not allow bounce.");
+
     scrollView.normalizedContentOffset = CGPointMake(1.1, 1.1);
-    XCTAssertEqual(scrollView.normalizedContentOffset, CGPointMake(1.1, 1.1), @"view should not allow bounce.");
+    XCTAssertTrue(CGPointEqualToPoint(scrollView.normalizedContentOffset, CGPointMake(1.1, 1.1)), @"view should not allow bounce.");
     
     scrollView.bounces = NO;
     scrollView.normalizedContentOffset = CGPointMake(-0.1, -0.1);
-    XCTAssertEqual(scrollView.normalizedContentOffset, CGPointMake(0, 0), @"view should not allow bounce.");
+    XCTAssertTrue(CGPointEqualToPoint(scrollView.normalizedContentOffset, CGPointMake(0, 0)), @"view should not allow bounce.");
+
     scrollView.normalizedContentOffset = CGPointMake(1.1, 1.1);
-    XCTAssertEqual(scrollView.normalizedContentOffset, CGPointMake(1, 1), @"view should not allow bounce.");
+    XCTAssertTrue(CGPointEqualToPoint(scrollView.normalizedContentOffset, CGPointMake(1, 1)), @"view should not allow bounce.");
+
     
     scrollView.normalizedContentOffset = CGPointMake(0.3, 0.3);
-    XCTAssertEqual(scrollView.normalizedContentOffset, CGPointMake(0.3, 0.3));
+    XCTAssertTrue(CGPointEqualToPoint(scrollView.normalizedContentOffset, CGPointMake(0.3, 0.3)));
+
     scrollView.normalizedContentOffset = CGPointMake(0.3, 0.6);
-    XCTAssertEqual(scrollView.normalizedContentOffset, CGPointMake(0.3, 0.6));
+    XCTAssertTrue(CGPointEqualToPoint(scrollView.normalizedContentOffset, CGPointMake(0.3, 0.6)));
+
 }
 
 -(void)testNormalizedContentOffsetWithZeroWidth
 {
     scrollView.frame = CGRectMake(0, 0, 0, 0);
-    XCTAssertEqual(scrollView.normalizedContentOffset, CGPointMake(0, 0), @"should not return NaN");
+    XCTAssertTrue(CGPointEqualToPoint(scrollView.normalizedContentOffset, CGPointMake(0, 0)), @"should not return NaN");
 }
 
 -(void)testNormalizedContentOffsetX
