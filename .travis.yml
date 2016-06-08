@@ -2,3 +2,5 @@ language: objective-c
 rvm: 2.0.0
 before_script: test/before_script.sh
 script: test/script.sh
+notifications:
+  slack: deweese:HQwNw89wXX6G1jGNCzBoJQIS
